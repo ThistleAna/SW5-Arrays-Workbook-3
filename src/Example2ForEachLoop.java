@@ -16,5 +16,7 @@ public class Example2ForEachLoop {
 
         System.out.println("The total sum is " + sum);
         // extension calculate average and print, double average = sum/10;
+        double average = (double)sum/10;
+        System.out.println("Average " + average);
     }
 }
